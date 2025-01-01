@@ -52,6 +52,18 @@ main {
     gap: 2rem;
 }
 
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.menu-item img:hover {
+    transform: scale(1.02);
+}
+
 footer {
     background-color: var(--primary-color);
     color: white;
